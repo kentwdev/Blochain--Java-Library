@@ -2,6 +2,10 @@
 Vermos Lib is a blockchain library providing a relatively consistent API that allows you to manage your wallets and sign transactions in BTC, ETH and EOS chains simultaneously.
 Vermos Lib introduces the concept of 'identity', you can use the same mnemonic to manage wallets on the three chains.
 
+## Credits and more info
+Thanks bitcoinj, CoreBitcoin and others library.
+
+
 ## Installation
 
 Step 1. Add the JitPack repository to your build file
@@ -96,22 +100,3 @@ TxSignResult result = tran.signTransaction(chainId, SampleKey.PASSWORD, ethereum
 String signedTx = result.getSignedTx(); // This is the signature result which you need to broadcast.
 String txHash = result.getTxHash(); // This is txHash which you can use for locating your transaction record
 ```
-
-## Copyright and License
-
-```
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-```
-
-## Credits and more info
-Thanks bitcoinj, CoreBitcoin and others library.
