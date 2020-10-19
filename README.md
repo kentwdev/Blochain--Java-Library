@@ -3,7 +3,7 @@ Vermos Lib is a blockchain library providing a relatively consistent API that al
 Vermos Lib introduces the concept of 'identity', you can use the same mnemonic to manage wallets on the three chains.
 
 ## Credits and more info
-Thanks bitcoinj, CoreBitcoin and others library.
+Thanks bitcoinj, CoreBitcoin libraries.
 
 
 ## Installation
